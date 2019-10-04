@@ -1,0 +1,28 @@
+{
+  "name": "parser",
+  "version": "1.0.0",
+  "description": "script that parce money information",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json -c tslint.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Smirnov Mikhail",
+  "license": "ISC",
+  "dependencies": {
+    "fast-xml-parser": "^3.13.0",
+    "iconv-lite": "^0.5.0",
+    "mongodb": "^3.3.2",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/iconv-lite": "0.0.1",
+    "@types/mongodb": "^3.3.4",
+    "@types/request-promise-native": "^1.0.17",
+    "prettier": "^1.18.2",
+    "tslint": "^5.20.0"
+  }
+}
