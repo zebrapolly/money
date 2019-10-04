@@ -31,3 +31,7 @@ Mongo должна быть запущена
 > pm2 start --only migration
 
 - Документация localhost:3000/api
+
+## Test user 
+username: 'test'
+password: 'test'
